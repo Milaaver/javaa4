@@ -1,4 +1,4 @@
-public class MainS2 {
+public class Main {
     public static void main(String[] args) {
         int intialAccount = 100;
         int depositAmount = 100;
