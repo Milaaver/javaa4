@@ -5,17 +5,14 @@ public class Main {
         int bonus;
         if (depositAmount > 1000) {
             bonus = depositAmount / 100;
-            int finalSum = intialAccount + depositAmount + bonus;
-            System.out.println("Final Sum");
-            System.out.println(finalSum) ;
-            System.out.println("Bonus");
-            System.out.println(bonus) ;
         } else {
             bonus = 0;
-            System.out.println("No_Bonus");
-            System.out.println("Final Sum");
         }
-
+        int finalSum = intialAccount + depositAmount + bonus;
+        System.out.println("Final Sum");
+        System.out.println(finalSum) ;
+        System.out.println("Bonus");
+        System.out.println(bonus) ;
 
 
     }
